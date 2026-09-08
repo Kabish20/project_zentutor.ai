@@ -23,3 +23,4 @@ def get_todos():
 if __name__ == '__main__':
     print(f"Connecting to: {SUPABASE_URL}")
     get_todos()
+

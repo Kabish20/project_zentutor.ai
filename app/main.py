@@ -7,3 +7,4 @@ if backend_dir not in sys.path:
 
 from backend.app.main import *
 from backend.app.main import app
+

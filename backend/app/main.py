@@ -27,7 +27,8 @@ from .teacher import register_teacher, forget_connection, get_connection, server
 DB_PATH = Path(os.getenv('MENTOR_DB', str(ROOT / 'data' / 'mentor.db')))
 COOKIE = 'mentor_session'
 app = FastAPI(title='zentutor.ai', version='0.1.0')
-app.add_middleware(TrustedHostMiddleware, allowed_hosts=['localhost', '127.0.0.1', '[::1]', 'testserver'])
+ALLOWED_HOSTS = [h.strip() for h in os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1,[::1],testserver,*.onrender.com').split(',') if h.strip()]
+app.add_middleware(TrustedHostMiddleware, allowed_hosts=ALLOWED_HOSTS)
 
 
 def now():

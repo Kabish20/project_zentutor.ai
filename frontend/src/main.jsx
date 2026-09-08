@@ -324,6 +324,10 @@ function App() {
   const activeLesson = course.lessons.find((l) => l.id === selected);
   const nav = [
     ['teacher', 'chat', 'AI Teacher'],
+    ['home', 'home', 'Overview'],
+    ['curriculum', 'book', 'My curriculum'],
+    ['review', 'repeat', 'Review & progress'],
+    ['resources', 'link', 'Resource shelf'],
   ];
   return (
     <div

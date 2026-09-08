@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/*.db*
+data/provider.local.json
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+tmp/
+.vscode/
+coverage/
+playwright-report/
+test-results/

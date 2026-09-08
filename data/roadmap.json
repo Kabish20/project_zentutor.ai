@@ -1,0 +1,38 @@
+[
+  {
+    "week": 1,
+    "title": "Python for reliable data work",
+    "learn": "Functions, comprehensions, modules, exceptions, virtual environments, dependency files, type hints, file/JSON handling, logging and small automated tests. Review arrays, dictionaries, sets and basic time complexity.",
+    "deliverable": "A script that reads a CSV, validates required columns and types, reports bad records, and writes a clean output. Include a test for an empty file and an invalid value. Use R1.",
+    "source": "Career Roadmap · page 5",
+    "source_id": "roadmap-w1",
+    "source_path": "roadmap/guide_text.txt"
+  },
+  {
+    "week": 2,
+    "title": "NumPy, pandas and analytical SQL",
+    "learn": "Array shapes, indexing, broadcasting and vectorisation; DataFrames, missing values, duplicates, joins, groupby and dates. In SQL: joins, aggregations, CTEs and window functions.",
+    "deliverable": "One exploratory notebook, three labelled charts and ten SQL queries on the same public dataset. Reconcile a count and an average between pandas and SQL. Use R2-R4.",
+    "source": "Career Roadmap · page 5",
+    "source_id": "roadmap-w2",
+    "source_path": "roadmap/guide_text.txt"
+  },
+  {
+    "week": 3,
+    "title": "Linear algebra and calculus you need",
+    "learn": "Vectors, matrices, dot products, norms and matrix multiplication; function slopes, derivatives, partial derivatives, gradients and the chain rule. Connect dimensions to features and model weights.",
+    "deliverable": "A NumPy implementation of a linear prediction and squared loss. Perform several gradient-descent updates on a tiny example and explain why the loss changes. Use R5 selectively.",
+    "source": "Career Roadmap · page 5",
+    "source_id": "roadmap-w3",
+    "source_path": "roadmap/guide_text.txt"
+  },
+  {
+    "week": 4,
+    "title": "Probability and practical statistics",
+    "learn": "Mean, median, variance, distributions, conditional probability, Bayes rule, sampling bias, confidence intervals, correlation versus causation, and the meaning of a hypothesis test.",
+    "deliverable": "A short dataset report with a target definition, a data dictionary, a missing-data summary, a simple bootstrap interval for a mean, and three possible sources of bias. Use R5-R6.",
+    "source": "Career Roadmap · page 5",
+    "source_id": "roadmap-w4",
+    "source_path": "roadmap/guide_text.txt"
+  }
+]
